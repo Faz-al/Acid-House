@@ -1,0 +1,88 @@
+.hero{
+    height: 70vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url('../Assets/bgimg.jpg'); /* Replace with the path to your background image */
+    background-size: cover;
+    background-position: center;
+    color: #fff; /* Set text color to white or any contrasting color */; /* Set the height of the hero section to the full viewport height */
+    padding: 20px; /* Adjust padding as needed */
+
+}
+
+.hero-left{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;  
+    padding: 200px;
+    line-height: 1.1;
+}
+
+.hero-left h2{
+    color: #fdfdfd;
+    font-size: 23px;
+    font-weight: 200;
+    font-family: poppins;
+    background-color: #171717;
+    width: fit-content;
+    
+}
+
+
+.hero-left p{
+    color: #000000;
+    font-size: 66px;
+    background-color: #fdfdfd;
+    width: fit-content;
+    font-family: poppins;
+}
+
+.hero-welcome{
+    margin-top: -17px;
+}
+
+.hero-quality{
+    font-size: 23px;
+    margin-top: 100px;
+    background-color: #171717;
+    width: fit-content;
+
+
+}
+
+.hero-hand-icon{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+}
+
+
+.hero-latest-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    width: 125px;
+    height: 50px;
+    border-radius: 15px;
+    margin-top: 1px;
+    background: #000000;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    font-family:poppins ;
+    font-weight: 600;
+}
+
+.hero-right{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}

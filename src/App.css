@@ -36,3 +36,11 @@
     transform: rotate(360deg);
   }
 }
+
+@media (max-width: 600px) {
+  /* Styles for small screens (e.g., mobile devices) */
+}
+
+@media (min-width: 601px) and (max-width: 1024px) {
+  /* Styles for medium screens (e.g., tablets) */
+}
